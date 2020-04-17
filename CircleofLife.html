@@ -1,0 +1,28 @@
+<!--
+Simple Circle of Life using 6 circles in CSS/HTML
+
+References:
+
+https://css-tricks.com/the-shapes-of-css/
+
+https://www.mathworks.com/matlabcentral/answers/89665-generating-an-array-of-hexagonal-shape-pattern
+xhex=[0 1 2 2 1 0]; % x-coordinates of the vertices ** Had to modify these a bit *
+yhex=[2 3 2 1 0 1]; % y-coordinates of the vertices 
+//-->
+
+<style>
+.circle {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50% / 50%
+  }
+</style>
+
+<div class="circle" style="top: 200px; left: 25px"></div>
+<div class="circle" style="top: 250px; left: 100px"></div>
+<div class="circle" style="top: 200px; left: 200px"></div>
+<div class="circle" style="top: 100px; left: 200px"></div>
+<div class="circle" style="top: 50px; left: 100px"></div>
+<div class="circle" style="top: 100px; left: 25px"></div>
